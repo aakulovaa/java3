@@ -15,23 +15,35 @@ public class Performance {
         return arrayList;
     }
 
+    /**
+     * Метод определения времени выполнения метода add() для ArrayList
+     * @return - возвращает время выполнения метода add() для ArrayList
+     */
     public long arrayAdd(){
         long startAdd = System.nanoTime();
-        for(int i=0;i<5000;i++) {
-            arrayList.add(i);
+        for(int element=0;element<5000;element++) {
+            arrayList.add(element);
         }
         long endAdd = System.nanoTime();
         return endAdd - startAdd;
     }
+    /**
+     * Метод определения времени выполнения метода add() для LinkedList
+     * @return - возвращает время выполнения метода add() для LinkedList
+     */
     public long linkedAdd(){
         long startAdd = System.nanoTime();
-        for(int i=0;i<5000;i++) {
-            linkedList.add(i);
+        for(int element=0;element<5000;element++) {
+            linkedList.add(element);
         }
         long endAdd = System.nanoTime();
         return endAdd - startAdd;
     }
 
+    /**
+     * Метод определения времени выполнения метода remove() для ArrayList
+     * @return - возвращает время выполнения метода remove() для ArrayList
+     */
     public long arrayRemove(){
         for(int i=0;i<5000;i++) {
             arrayList.add(i);
@@ -43,6 +55,10 @@ public class Performance {
         long endAdd = System.nanoTime();
         return endAdd - startAdd;
     }
+    /**
+     * Метод определения времени выполнения метода remove() для LinkedList
+     * @return - возвращает время выполнения метода remove() для LinkedList
+     */
     public long linkedRemove(){
         for(int i=0;i<5000;i++) {
             linkedList.add(i);
@@ -55,6 +71,10 @@ public class Performance {
         return endAdd - startAdd;
     }
 
+    /**
+     * Метод определения времени выполнения метода get() для ArrayList
+     * @return - возвращает время выполнения метода get() для ArrayList
+     */
     public long arrayGet(){
         for(int i=0;i<5000;i++) {
             arrayList.add(i);
@@ -66,9 +86,14 @@ public class Performance {
         long endAdd = System.nanoTime();
         return endAdd - startAdd;
     }
+
+    /**
+     * Метод определения времени выполнения метода get() для LinkedList
+     * @return - возвращает время выполнения метода get() для LinkedList
+     */
     public long linkedGet(){
-        for(int i=0;i<5000;i++) {
-            linkedList.add(i);
+        for(int element=0;element<5000;element++) {
+            linkedList.add(element);
         }
         long startAdd = System.nanoTime();
         for(int index=0;index<5000;index++) {
