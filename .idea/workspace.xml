@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ce36fbb-253a-4fdd-a48f-89a9ef80c105" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/list/Performance.java" afterDir="false" />
+    <list default="true" id="2ce36fbb-253a-4fdd-a48f-89a9ef80c105" name="Changes" comment="добавление возможности вывода результата таблицей">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/list/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/list/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/list/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/list/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +41,64 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.App.executor": "Run",
+    "Application.Result.executor": "Run",
+    "Application.ResultTable.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "third",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.list.App" />
+      <module name="listPerformance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Result" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.list.Result" />
+      <module name="listPerformance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResultTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.list.ResultTable" />
+      <module name="listPerformance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.ResultTable" />
+        <item itemvalue="Application.Result" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -66,6 +115,37 @@
       <option name="presentableId" value="Default" />
       <updated>1710876395263</updated>
     </task>
+    <task id="LOCAL-00001" summary="Определение времени выполнения методов&#10;&#10;Создание методов для определения времени выполнения методов .add(), .remove(), .get()">
+      <option name="closed" value="true" />
+      <created>1710881107463</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710881107463</updated>
+    </task>
+    <task id="LOCAL-00002" summary="редактирование кода">
+      <option name="closed" value="true" />
+      <created>1710881485310</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710881485310</updated>
+    </task>
+    <task id="LOCAL-00003" summary="добавление возможности вывода результата таблицей">
+      <option name="closed" value="true" />
+      <created>1710957746584</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710957746584</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Определение времени выполнения методов&#10;&#10;Создание методов для определения времени выполнения методов .add(), .remove(), .get()" />
+    <MESSAGE value="редактирование кода" />
+    <MESSAGE value="добавление возможности вывода результата таблицей" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавление возможности вывода результата таблицей" />
   </component>
 </project>
