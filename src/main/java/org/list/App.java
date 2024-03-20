@@ -7,7 +7,7 @@ public class App
         Performance performance = new Performance();
         System.out.println("Введите количество опрераций");
         Scanner in = new Scanner(System.in);
-        int operationCount = in.nextInt();;
+        int operationCount = in.nextInt();
         System.out.println("ArrayList\t.add()\t" + operationCount +"\t"+ performance.arrayAdd(operationCount)+"ns\n" +
                 "LinkedList\t.add()\t" + operationCount +"\t"+ performance.linkedAdd(operationCount)+" ns\n" +
                 "ArrayList\t.remove()\t" + operationCount +"\t"+ performance.arrayRemove(operationCount)+" ns\n" +

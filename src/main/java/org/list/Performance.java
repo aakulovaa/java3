@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class Performance {
+
     private final ArrayList<Integer> arrayList = new ArrayList<>();
+
     private final LinkedList<Integer> linkedList = new LinkedList<>();
 
     /**
