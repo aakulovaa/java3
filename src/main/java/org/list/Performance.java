@@ -43,7 +43,7 @@ public class Performance {
      * @return - возвращает время выполнения метода remove() для ArrayList
      */
     public long arrayRemove(int operationCount){
-        for(int i=0;i<5000;i++) {
+        for(int i=0;i<operationCount;i++) {
             arrayList.add(i);
         }
         long startAdd = System.nanoTime();
@@ -58,7 +58,7 @@ public class Performance {
      * @return - возвращает время выполнения метода remove() для LinkedList
      */
     public long linkedRemove(int operationCount){
-        for(int i=0;i<5000;i++) {
+        for(int i=0;i<operationCount;i++) {
             linkedList.add(i);
         }
         long startAdd = System.nanoTime();
@@ -74,7 +74,7 @@ public class Performance {
      * @return - возвращает время выполнения метода get() для ArrayList
      */
     public long arrayGet(int operationCount){
-        for(int i=0;i<5000;i++) {
+        for(int i=0;i<operationCount;i++) {
             arrayList.add(i);
         }
         long startAdd = System.nanoTime();
