@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ce36fbb-253a-4fdd-a48f-89a9ef80c105" name="Changes" comment="добавление возможности вывода результата таблицей">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="2ce36fbb-253a-4fdd-a48f-89a9ef80c105" name="Changes" comment="last change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/list/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/list/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/list/ResultTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/list/ResultTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,20 +37,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Run",
-    "Application.Result.executor": "Run",
-    "Application.ResultTable.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "third",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Result.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResultTable.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;third&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.App">
+}</component>
+  <component name="RunManager" selected="Application.ResultTable">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.list.App" />
       <module name="listPerformance" />
@@ -93,8 +92,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
         <item itemvalue="Application.ResultTable" />
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.Result" />
       </list>
     </recent_temporary>
@@ -139,13 +138,31 @@
       <option name="project" value="LOCAL" />
       <updated>1710957746584</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="добавление возможности вывода результата&#10;&#10;возможность самостоятельного ввода количества опреций + вывод в консоль">
+      <option name="closed" value="true" />
+      <created>1710958228578</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710958228578</updated>
+    </task>
+    <task id="LOCAL-00005" summary="last change">
+      <option name="closed" value="true" />
+      <created>1710958427769</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710958427769</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Определение времени выполнения методов&#10;&#10;Создание методов для определения времени выполнения методов .add(), .remove(), .get()" />
     <MESSAGE value="редактирование кода" />
     <MESSAGE value="добавление возможности вывода результата таблицей" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавление возможности вывода результата таблицей" />
+    <MESSAGE value="добавление возможности вывода результата&#10;&#10;возможность самостоятельного ввода количества опреций + вывод в консоль" />
+    <MESSAGE value="last change" />
+    <option name="LAST_COMMIT_MESSAGE" value="last change" />
   </component>
 </project>

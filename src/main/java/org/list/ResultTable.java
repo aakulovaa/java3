@@ -5,11 +5,17 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * Класс для создания таблицы с результатами работы программы
+ */
 public class ResultTable extends JDialog{
     private JTable table1;
     private JPanel panel1;
     private JButton buttonOK;
 
+    /**
+     * Конструктор класа, в котором создается диалоговое окно с таблицей и кнопкой для его закрытия
+     */
     public ResultTable() {
         setContentPane(panel1);
         setModal(true);
@@ -21,10 +27,17 @@ public class ResultTable extends JDialog{
         });
         setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
     }
+
+    /**
+     * Обработчик нажатия на кнопку - приводит к завершения работы
+     */
     private void onOK() {
-        // add your code here
         dispose();
     }
+
+    /**
+     * Метод заполнения таблицы данными из класса <br>Performance</br>
+     */
     private void createUIComponents() {
         Performance performance = new Performance();
         int operationCount = 5000;
