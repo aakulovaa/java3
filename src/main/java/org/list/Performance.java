@@ -3,6 +3,10 @@ package org.list;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
+/**
+ * Класс с методами для сравнения времени работы свойств <b>arrayList</b> и <b>linkedList</b>
+ * @author Анна Акулова
+ */
 public class Performance {
 
     private final ArrayList<Integer> arrayList = new ArrayList<>();

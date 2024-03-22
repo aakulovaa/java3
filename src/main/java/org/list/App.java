@@ -1,6 +1,9 @@
 package org.list;
 import java.util.Scanner;
-public class App 
+/**
+ * <a href="https://github.com/aakulovaa/java3.git">...</a>
+ */
+public class App
 {
     public static void main( String[] args )
     {
